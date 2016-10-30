@@ -37,7 +37,7 @@ function countBs(str){
 Для этого переделайте функцию countBs. 
 */
 function countChar(str, symb){
-    if (str && symb){ //Зачем счетать то чего нет
+    if (str && symb){
         var boofer = 0;
         for (var i = --str.length; i >= 0; i--) // for (var i = 0; i < str.length; i++)
             if (str.charAt(i) === symb) boofer++;
